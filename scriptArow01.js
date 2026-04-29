@@ -1,5 +1,5 @@
 //Exercicio 1
-function dobro(n){
+dobro=(n)=>{
     return n * 2
 }
 console.log("O dobro do parametro digitado é: " + dobro(10))
@@ -28,5 +28,5 @@ console.log(pessoa("Giovany",24))
 multiplicar = (valor)=> valor * 10
 console.log("O valor multiplicado é " + multiplicar(10))
 //Exercicio 10
-contarCaracteres = (palavra) => "A quantidade de letras é " + palavra.lenght
-console.log(contarCaracteres("Sim"))
+contarCaracteres = (palavra) => "A quantidade de caractéres é " + palavra.length;
+console.log(contarCaracteres("Sim"));
